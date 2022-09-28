@@ -5,11 +5,12 @@ import ReactDOM from 'react-dom';
 //import BomDia from './components/BomDia';
 import Multi, {BoaNoite} from './components/Multiplos';
 import Saudacao from './components/Saudacao';
+import Pai from './components/Pai';
 
 const element = <h1>TESTANDO</h1>
 
 ReactDOM.render(
     <div>
-        <Saudacao tipo="Bom dia" nome="Felipe" />
+        <Pai nome="Fernando" sobrenome="Santos"/>
     </div>
     , document.getElementById('root'));
